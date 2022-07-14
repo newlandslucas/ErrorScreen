@@ -12,6 +12,9 @@
 		94E0E5AF28809CC200498730 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E0E5AE28809CC200498730 /* Assets.xcassets */; };
 		94E0E5B228809CC200498730 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94E0E5B128809CC200498730 /* Preview Assets.xcassets */; };
 		94E0E5B92880A1B500498730 /* ConnectionError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E0E5B82880A1B500498730 /* ConnectionError.swift */; };
+		94E0E5BB2880A39400498730 /* p1.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E0E5BA2880A39400498730 /* p1.png */; };
+		94E0E5BD2880A3F300498730 /* RouterOffline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E0E5BC2880A3F300498730 /* RouterOffline.swift */; };
+		94E0E5BF2880A86000498730 /* p2.png in Resources */ = {isa = PBXBuildFile; fileRef = 94E0E5BE2880A86000498730 /* p2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		94E0E5AE28809CC200498730 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94E0E5B128809CC200498730 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		94E0E5B82880A1B500498730 /* ConnectionError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectionError.swift; sourceTree = "<group>"; };
+		94E0E5BA2880A39400498730 /* p1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p1.png; sourceTree = "<group>"; };
+		94E0E5BC2880A3F300498730 /* RouterOffline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterOffline.swift; sourceTree = "<group>"; };
+		94E0E5BE2880A86000498730 /* p2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = p2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +59,12 @@
 		94E0E5A928809CC000498730 /* ErrorScreen */ = {
 			isa = PBXGroup;
 			children = (
+				94E0E5BA2880A39400498730 /* p1.png */,
+				94E0E5BE2880A86000498730 /* p2.png */,
 				94E0E5AA28809CC000498730 /* ErrorScreenApp.swift */,
 				94E0E5AC28809CC000498730 /* ContentView.swift */,
 				94E0E5B82880A1B500498730 /* ConnectionError.swift */,
+				94E0E5BC2880A3F300498730 /* RouterOffline.swift */,
 				94E0E5AE28809CC200498730 /* Assets.xcassets */,
 				94E0E5B028809CC200498730 /* Preview Content */,
 			);
@@ -129,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				94E0E5B228809CC200498730 /* Preview Assets.xcassets in Resources */,
+				94E0E5BB2880A39400498730 /* p1.png in Resources */,
 				94E0E5AF28809CC200498730 /* Assets.xcassets in Resources */,
+				94E0E5BF2880A86000498730 /* p2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,6 +153,7 @@
 			files = (
 				94E0E5B92880A1B500498730 /* ConnectionError.swift in Sources */,
 				94E0E5AD28809CC000498730 /* ContentView.swift in Sources */,
+				94E0E5BD2880A3F300498730 /* RouterOffline.swift in Sources */,
 				94E0E5AB28809CC000498730 /* ErrorScreenApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
